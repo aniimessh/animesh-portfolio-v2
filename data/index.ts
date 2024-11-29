@@ -1,7 +1,23 @@
 import type { ExperienceCardProps, ProjectCardProps } from "@/types";
-import StudiNotion from "@/public/img/image.png";
+import MosaicUI from "@/public/img/mosaic-bg.png";
+import Threads from "@/public/img/threads-bg.png";
+import Aura from "@/public/img/aura.png";
 
 export const projects: ProjectCardProps[] = [
+  {
+    title: "Mosaic UI - A UI Component Library",
+    description:
+      "Mosaic is a versatile UI component library that provides free, ready-to-use code snippets for a wide range of components. Designed for developers, Mosaic simplifies the process of creating elegant and responsive interfaces.",
+    technologies: ["Next.Js", "TailwindCSS", "gSap", "Framer Motion"],
+    links: [
+      {
+        href: "https://github.com/aniimessh/mosaic-ui",
+        label: "github (pvt repo)",
+      },
+      { href: "https://ui-mosaic.vercel.app/", label: "live" },
+    ],
+    image: MosaicUI,
+  },
   {
     title: "Aura - Video Posting Application",
     description:
@@ -14,7 +30,7 @@ export const projects: ProjectCardProps[] = [
         label: "apk link",
       },
     ],
-    image: StudiNotion,
+    image: Aura,
   },
   {
     title: "Threads - Social Media Platform",
@@ -22,23 +38,33 @@ export const projects: ProjectCardProps[] = [
       "Developed a social media platform similar to Threads, enabling users to create and engage in threaded discussions. Implemented user authentication using Clerk for secure and seamless login and account management.",
     technologies: ["Next.Js", "TailwindCSS", "Clerk", "MongoDB"],
     links: [
-      { href: "https://github.com/aniimessh/StudyNotion", label: "github" },
+      { href: "https://github.com/aniimessh/threads", label: "github" },
       { href: "https://threads-one-phi.vercel.app/", label: "live" },
     ],
-    image: StudiNotion,
+    image: Threads,
+  },
+  {
+    title: "Yoom - Online Video Calling Application",
+    description:
+      "It offers features such as real-time video and audio communication, screen sharing, chat, and meeting scheduling, providing a seamless and interactive experience for users to connect and collaborate remotely.",
+    technologies: ["Next.Js", "TailwindCSS", "Clerk", "MongoDB"],
+    links: [
+      { href: "https://github.com/aniimessh/zoom_clone", label: "github" },
+      { href: "https://zoom-clone-five-swart.vercel.app/", label: "live" },
+    ],
+    image: Threads,
   },
 ];
 
-
 export const experiences: ExperienceCardProps[] = [
-    {
-      company: "Centum World",
-      location: "Onsite, Kolkata",
-      role: "Software Developer",
-      duration: "July 2023 - December 2023",
-      responsibilities: [
-        "Utilized comprehensive skills in both front-end (React.js, MUI, Tailwind CSS) and back-end development (Node.js, Python) to contribute effectively to multiple projects.",
-        "Actively collaborated with cross-functional teams, enhancing communication and ensuring efficient project delivery through Agile methodologies.",
-      ],
-    },
-  ];
+  {
+    company: "Centum World",
+    location: "Onsite, Kolkata",
+    role: "Software Developer",
+    duration: "July 2023 - December 2023",
+    responsibilities: [
+      "Utilized comprehensive skills in both front-end (React.js, MUI, Tailwind CSS) and back-end development (Node.js, Python) to contribute effectively to multiple projects.",
+      "Actively collaborated with cross-functional teams, enhancing communication and ensuring efficient project delivery through Agile methodologies.",
+    ],
+  },
+];

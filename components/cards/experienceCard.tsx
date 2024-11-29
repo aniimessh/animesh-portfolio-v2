@@ -1,8 +1,6 @@
 import type { ExperienceCardProps } from "@/types";
 import { Badge } from "../badge/badge";
 
-
-
 export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   company,
   location,
@@ -11,8 +9,8 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
   responsibilities,
 }) => (
   <div className="border border-white/20 p-2 rounded-lg mt-4">
-    <div className="flex items-start justify-between">
-      <div className="w-3/4">
+    <div className="flex items-start justify-between md:flex-row flex-col-reverse">
+      <div className="md:w-3/4 w-full">
         <div className="font-semibold text-xl tracking-wide flex items-center gap-2">
           {company}
           <Badge text={location} />

@@ -5,8 +5,8 @@ import { experiences, projects } from "@/data";
 
 const RightContent: React.FC = () => {
   return (
-    <div>
-      <section>
+    <div className="">
+      <section className="">
         <h1 className="underline">Projects</h1>
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
