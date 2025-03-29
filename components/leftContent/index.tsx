@@ -14,7 +14,7 @@ const LeftContent = () => {
       <Link href="/" className="font-host underline">
         animesh.dev
       </Link>
-      <p className="mt-6 text-4xl font-semibold -tracking-wider">
+      <p className="mt-6 font-semibold text-4xl -tracking-wider">
         Animesh Gupta
       </p>
       <div className="flex items-center mt-2">
@@ -34,7 +34,7 @@ const LeftContent = () => {
         <div className="flex gap-2">
           <Link
             href={
-              "https://drive.google.com/file/d/1eBvqMEToA2qzSHZeS7ZuOrYIyamC63nK/view?usp=drive_link"
+              "https://drive.google.com/file/d/1d2vwUPMNfrWzU7oa1lVPJaL3uvM15ZRI/view?usp=sharing"
             }
             target="_blank"
           >
@@ -55,21 +55,21 @@ const LeftContent = () => {
         </div>
       </div>
 
-      <div className="mt-16 space-y-3 border-l-2 pl-4 py-2 border-white/40 rounded-md">
+      <div className="space-y-3 mt-16 py-2 pl-4 border-white/40 border-l-2 rounded-md">
         <p>
-          <span className="text-white/50 font-semibold">Languages:</span> C++,
+          <span className="font-semibold text-white/50">Languages:</span> C++,
           JavaScript, TypeScript{" "}
         </p>
         <p>
-          <span className="text-white/50 font-semibold">Frontend:</span>
+          <span className="font-semibold text-white/50">Frontend:</span>
           React, React native, TailwindCss, Next.js, Shadcn, MUI
         </p>
         <p>
-          <span className="text-white/50 font-semibold">Backend:</span>
+          <span className="font-semibold text-white/50">Backend:</span>
           Node.js, Express.js, MongoDB
         </p>
         <p>
-          <span className="text-white/50 font-semibold">Tools:</span> Git,
+          <span className="font-semibold text-white/50">Tools:</span> Git,
           Terminal
         </p>
       </div>

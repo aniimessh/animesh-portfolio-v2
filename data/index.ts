@@ -2,6 +2,7 @@ import type { ExperienceCardProps, ProjectCardProps } from "@/types";
 import MosaicUI from "@/public/img/mosaic-bg.png";
 import Threads from "@/public/img/threads-bg.png";
 import Aura from "@/public/img/aura.png";
+import Yoom from "@/public/img/yoom.png";
 
 export const projects: ProjectCardProps[] = [
   {
@@ -52,7 +53,7 @@ export const projects: ProjectCardProps[] = [
       { href: "https://github.com/aniimessh/zoom_clone", label: "github" },
       { href: "https://zoom-clone-five-swart.vercel.app/", label: "live" },
     ],
-    image: Threads,
+    image: Yoom,
   },
 ];
 
@@ -65,6 +66,16 @@ export const experiences: ExperienceCardProps[] = [
     responsibilities: [
       "Utilized comprehensive skills in both front-end (React.js, MUI, Tailwind CSS) and back-end development (Node.js, Python) to contribute effectively to multiple projects.",
       "Actively collaborated with cross-functional teams, enhancing communication and ensuring efficient project delivery through Agile methodologies.",
+    ],
+  },
+  {
+    company: "Jivandeep Health Services",
+    location: "Onsite, Raipur",
+    role: "Frontend Developer",
+    duration: "June 2024 - Janurary 2025",
+    responsibilities: [
+      "Managed both frontend and backend development to deliver end-to-end solutions, ensuring seamless integration and optimal performance across all application layers.",
+      "Gained hands-on experience working on real-life projects, enhancing problem-solving skills and understanding of practical development workflows",
     ],
   },
 ];
